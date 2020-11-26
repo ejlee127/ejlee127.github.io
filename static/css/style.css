@@ -4,7 +4,7 @@ body {
   padding: 50;
   margin: 0;
   background-color: rgba(238, 237, 237, 0.753);
-  background-image: url("../../images/doorlock.jpg")
+  background-image: url("../../images/flower.jpg")
 }
 
 #me-photo {
@@ -85,3 +85,12 @@ h5{
   padding-right:50px;
 }
 
+@media (max-width: 760px) {
+  .body-font {
+    font-family: sans-serif;
+    font-size: 8px;
+    /*font-weight: bold;*/
+    text-align: left;
+    /*padding: 5px;*/
+  }
+}
