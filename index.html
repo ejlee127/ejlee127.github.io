@@ -1,26 +1,100 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Eunjeong Lee</title>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>EJ Lee</title>
 
-<body>
-<h1> Welcome EJ's page</h1>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<img src="/Users/eunjeong/Pictures/IMG_0029.jpeg" 
-      width=200, height=300, alt="Hey, this is me, my photo">
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+   
+  </head>
 
-<p>
-I like music, mathematics<br>
-</p>
+  <body >
+    <!-- Start of container -->
+    <div id="container-fluid">
+      <hr>
+      <div class="row">
+      </div>
+      <div class = "row" id="top-row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-6 me-intro-card">
+          <h4>Eunjeong J. Lee </h4>
+          <hr>
+          <img src="images/me.png" id="me-photo"  align=left alt="Hey, this is me, my photo">
+          <p> Data Analyst powered by research in cryptograpy and number theory, Ph.D in mathematics 
+          </p>
+          <p> Enthusiastic in learning novel area, eagar for curiosity. Exploring music arrangements and flute sounds</p> 
+          <p> Successfully finished Data Analytic BootCamp from UNC ChapelHill during 2020 pandemic crisis. Proudly presenting the projects below</p>      
+        </div>
+        <div  class="col-md-3">
 
-<p>
+            <div class="card" >
+              <div class="card-body">
+                <a href="resume.html" class="btn btn-primary btn-block" role="button">Resume</a>
+                <a href="accomplish.html" class="btn btn-primary btn-block" role="button">Accomplishments</a>
+                <a href="interests.html" class="btn btn-primary btn-block" role="button">Interests</a>
+                <a href="resume.pdf" class="btn btn-secondary btn-block" role="button">Resume(pdf)</a>              </div>            
+            </div>
+          
+        </div>
+      </div>
+      <hr>
+      <div class = "row">
+        <div class="col-md-1"></div>
+        <div class = "col-md-10">
+          <div class="card-group">
+            <h4 class="card-header me-intro-card"> Projects </h4>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Urban Sound Classification using Machine Learning</h5>
+                <p class="card-text">This project looks at the 
+                  <a href="https://urbansounddataset.weebly.com/urbansound8k.html">UrbanSound8K dataset</a>.
+                  We carry out the experiments with various machine learning algorithms
+                  and analyze their classification accuracies.
+                </p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+              <img class="card-img-bottom" src="images/best_models.png" alt="Card image cap">
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">NC-County Statistics</h5>
+                <p class="card-text">North Carolina, especially Triangle, has known as one of the fastest growing area.
+                  This project develops a consolidated dashboard of NC county employment 
+                  statistics for multiple years for each county. The data was collected from 
+                  <a href="https://www.census.gov/data/developers/data-sets/cbp-nonemp-zbp/cbp-api.html"> census bureau through API calls.</a></p>
+                <img class="card-img-top" src="images/NC_dashboard.png" alt="Card image cap">
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Soccer Home Advantage</h5>
+                <p class="card-text">This project reviews the international soccer data in the European league 
+                  to check the common assumption-home team has advantage is real. Even without the fans in home stadium,
+                  will the players perform better in their stadium?</p>
+                <img class="card-img-top" src="images/ALL_bar_results_attendance.png" alt="Card image cap">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of container  -->
+    
+    
+    <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
 
-
-</p>
-
-</body>
-
+     <!-- Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+            
+  </body>
 </html>
-
