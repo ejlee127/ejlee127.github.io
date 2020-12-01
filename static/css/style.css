@@ -7,6 +7,14 @@ body {
   background-image: url("../../images/flower.jpg")
 }
 
+.btn:link {
+  color: white
+}
+
+.btn-primary {
+  background-color: midnightblue;
+}
+
 #me-photo {
   align-content: left;
   padding-right: 10px;
@@ -30,6 +38,14 @@ body {
   margin: 20px;
   padding-left: 20px;*/
   background-color: rgba(238, 237, 237, 0.753);
+}
+
+.img-center {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 #top-row {
@@ -69,6 +85,32 @@ h5{
   padding-left: 10px;
   font-size: large;
   font-weight: bold;
+}
+
+a {
+  color: black
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+/*
+a:visited {
+  color: purple;
+  text-decoration: none;
+}*/
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .body-font {

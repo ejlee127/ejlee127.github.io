@@ -21,24 +21,26 @@
       <div class="row">
       </div>
       <div class = "row" id="top-row">
-        <div  class="col-md-2"></div>
-        <div class="col-md-5 me-intro-card">
-          <h4>Eunjeong Joshephine Lee </h4>
+        <div  class="col-md-2">
+          <img src="images/tate.gif" class="img-center">
+        </div>
+        <div class="col-md-6 me-intro-card">
+          <h4>Eunjeong J. Lee </h4>
           <hr>
-          <ul style="list-style-type:none;" align="left" font-size="small">
-            <li class="body-font">Raleigh, NC 27613 </li>
-            <li class="body-font">Phone: 919-916-7239</li>
-            <li class="body-font">Email: eunjeong.joshephine.lee@gmail.com</li>
-            <li class="body-font">LinkedIn: https://www.linkedin.com/in/ejlee127</li>
-            <li class="body-font">GitHub: https://github.com/ejlee127</li>
-          </ul>    
+          Here are the accomplishments obtained as a mathematician. I have studied cryptographical algorithms,
+          number theory for cryptography and the properties of cyclotomic polynomials.
+          The left gif image illustrates
+          the computation of R-ate pairing on elliptic curve, which
+          was published in 2009 and known as the most efficient pairing.
+          <!--Pairing on elliptic curves has been enormously used
+          in cryptographic applications such as voting, ..     -->     
         </div>
         <div  class="col-md-3">
 
             <div class="card" >
               <div class="card-body">
                 <a href="index.html" class="btn btn-primary btn-block" role="button">Home</a>
-                <a href="accomplish.html" class="btn btn-primary btn-block" role="button">Accomplishments</a>
+                <a href="resume.html" class="btn btn-primary btn-block" role="button">Resume</a>
                 <a href="interests.html" class="btn btn-primary btn-block" role="button">Interests</a>
                 <a href="resume.pdf" class="btn btn-secondary btn-block" role="button">Resume(pdf)</a>
               </div>            
@@ -51,25 +53,61 @@
         <div class="col-md-1">
         </div>
         <div class="col-md-10">
-          <div class="card body-font">
-            <h5 class = "card-title mt-2" >Publications </h5>
+          <div class="card">
+            <h5 class = "card-header">Technical Reports </h5>
             <div class="card-body">
-                Meticulous, persistent data analyst with passion 
-              for exploring the hidden skeleton of data and questioning 
-              in various ways to find simple and clear solutions. Earned a 
-              certificate in data analytics and visualization from UNC. 
-              10+ years of research projects in number theory and cryptography 
-              with the Ph.D degree in mathematics. Strengths including problem solving abilities combined with collaborating across diverse groups.
-            </div>
-            <h5 class = "card-title">Grants </h5>
-            <div class="card-body">
-              <ul>
-                <li>Languages: Python, VBA, JavaScript, R, C</li>
-                <li>Databases: PostgreSQL, MongoDB</li>
-                <li>Visualization: Tableau, D3, Plotly, ChartJS</li>
-                <li>Mathematics: Magma, Maple, Sage, Latex</li>
+              <ul id="reports">
               </ul>
-            </div>           
+            </div>     
+          </div>
+          <div class="card">
+            <h5 class = "card-header" >Publications </h5>
+            <div class="card-body">
+              <div class="card-title mt-2">
+                Refereed papers:
+              </div>
+              <div class="card-text body-font">
+                <ul id="refereed">
+                </ul>
+              </div>
+              <div class="card-title mt-2">
+                Conference papers (refereed):
+              </div>
+              <div class="card-text body-font">
+                <ul id="conference">
+                </ul>
+              </div>
+            </div>      
+          </div>
+          <div class="card">
+            <h5 class = "card-header">Grants </h5>
+            <div class="card-body">
+              <ul id="grants">
+              </ul>
+            </div>     
+          </div>
+          <div class="card">
+            <h5 class = "card-header">Talks </h5>
+            <div class="card-body">
+              <ul id="talks">
+              </ul>
+            </div>     
+          </div>
+          <div class="card">
+            <h5 class = "card-header">Teachings </h5>
+            <div class="card-body">
+              At Department of Mathematics, <a href="https://www.ewha.ac.kr/ewhaen/index.do" target="_blank"> Ewha Womans University</a>
+              <ul id="teachings">
+              </ul>
+            </div>     
+          </div>
+          <div class="card">
+            <h5 class = "card-header">Professional Services </h5>
+            <div class="card-body">
+              Served as a referee for
+              <ul id="services">
+              </ul>
+            </div>     
           </div>
         </div>
         
@@ -81,6 +119,7 @@
     
     <!-- d3 JavaScript -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="static/js/detail.js"></script>
 
      <!-- Bootstrap JS -->
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
