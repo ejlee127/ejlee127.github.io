@@ -62,7 +62,7 @@ var teachings_list = [
     "Modern Cryptgraphy (graduate course): Spring 2010"
 ];
 
-var reports = d3.select("#reports");
+var reports = d3.select("#reports").select("ul");
 submitted_articles.forEach( article => {
     reports.append("li").text(article)
 });
